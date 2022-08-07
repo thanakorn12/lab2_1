@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <fieldset>
+            <label>ชื่อเต็มสาขา</label>
+            <input type="text" placeholder="ชื่อเต็มสาขา" pattern="[a-z]"/><br>
+            <label>ชื่อย่อสาขา</label>
+            <input type="text" placeholder="ชื่อย่อสาขา" pattern="[a-z]"/><br>
+        </fieldset>
+        <fieldset>
+            <label>จำนวนเงินที่จะโอน</label>
+            <input type="text" placeholder="ใส่จำนวนเงินที่ต้องการโอน" pattern="{1,10}"/><br>
+        </fieldset>
+        <fieldset>
+            <label>อาหารที่ชอบ 5 ชนิดจากน้อยไปมาก</label>
+            <input type="text" placeholder="อันดับ 1"/>
+            <input type="text" placeholder="อันดับ 2"/>
+            <input type="text" placeholder="อันดับ 3"/>
+            <input type="text" placeholder="อันดับ 4"/>
+            <input type="text" placeholder="อันดับ 5"/>
+        </fieldset>
+        <fieldset>
+            <label>ค่าไฟฟ้า 3 เดือนที่ผ่านมา</label>
+            <input type="text" placeholder="ค่าไฟฟ้า3เดือนที่ผ่านมา"/>
+        </fieldset>
+        <fieldset>
+            <label>รหัสบัตรประชาชน</label>
+            <input type="text" placeholder="รหัสบัตรประชาชน"/>
+        </fieldset>
+        <fieldset>
+            <label>ความพึงพอใจของหนังสือเล่มนี้</label>
+            <input type="checkbox" name="พอใจ"/>พอใจ
+            <input type="checkbox" name="ไม่พอใจ"/>ไม่พอใจ
+        </fieldset>
+        <fieldset>
+            <label>อาการป่วย</label>
+            <input type="text" placeholder="อาการป่วย"/>
+        </fieldset>
+        <fieldset>
+            <label>ในช่วง 3 เดือนเคยได้รับวัคซีนหรือไม่</label>
+            <input type="checkbox" name="เคย"/>เคย
+            <input type="checkbox" name="ไม่เคย"/>ไม่เคย
+        </fieldset>
+        <fieldset>
+            <label>รหัสผ่าน</label>
+            <input type="password" minlength="8" maxlength="16" placeholder="กรุณาใส่รหัสผ่าน 8-16 ตัว"/>
+        </fieldset>
+        <fieldset>
+            <label>เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน</label>
+            <input type="time"/>ถึง
+            <input type="time"/>
+        </fieldset>
+        <fieldset>
+            <label>เวลาที่ต้องไปพบแพทย์</label>
+            <input type="datetime-local"/>
+        </fieldset>
+    </body>
+</html>
